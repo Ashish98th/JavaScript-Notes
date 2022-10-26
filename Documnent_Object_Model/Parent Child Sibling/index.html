@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Child Sibling</title>
+</head>
+<body>
+
+    <p id="first">Frontend</p>
+    <p>Web</p>
+    <p>Developer</p>
+    <p>& Designer</p>
+
+    <ul><li>Full Stack</li>
+        <li>Frontend</li>
+        <li>Backend</li></ul>
+    <script>
+var child=document.body.children;
+console.log(child)
+
+
+//add a new child in a body
+
+var para=document.createElement("p");  //created a paragraph element
+var textNode=document.createTextNode("Newly Created TextNode"); //created content
+para.appendChild(textNode); //adding text content in Paragraph
+console.log(para);
+
+document.body.appendChild(para);
+
+//access first and last child 
+
+var list=document.querySelector("ul");
+console.log(list);
+console.log(list.firstChild);// with space showing #text
+
+console.log(list.lastChild); //with space showing #text
+
+//siblings
+
+// first sibling of id first 
+var firstSibling=first.nextElementSibling;
+console.log(firstSibling);
+
+var secondSibling=first.nextElementSibling.nextElementSibling;
+console.log(secondSibling);
+
+//to find parent
+
+// var parent=list.parentNode;
+console.log(list.parentNode);
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script src=""></script>
+
+</head>
+<body>
+   <ul>
+    <li class="c1 li">list 1</li>
+    <li id="first">list 2</li>
+    <li class="c1">list 3</li>
+   </ul>
+   <script>
+    
+    //You can use several classes
+   let element=document.getElementsByClassName("c1 li"); //This will select only that particular element which have two classes
+
+   for(let i=0;i<element.length;i++){
+    element[i].innerHTML="Hello"
+   }
+
+   
+   </script>
+</body>
+</html>

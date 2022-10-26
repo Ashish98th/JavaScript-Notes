@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <script src="rev.js"></script>
+    <script src="Promise2.js" ></script> -->
+    <script src="Method_chaining.js"></script>
+    <script>
+
+    // Producing Code 
+        const promiseObj=new Promise((resolve,reject)=>{
+            let req=false;
+            if(req==true){
+                resolve("Request Success");
+            }else{
+                reject([1,2,3,4,5]);
+            }
+        })
+
+    // Consuming Code 
+        promiseObj.then(
+            (value)=>{console.log(value)},  //value=Request Success
+            (error)=>{console.log(error) }, //error=Request Rejected
+        );
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

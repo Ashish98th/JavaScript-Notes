@@ -1,0 +1,8 @@
+Asynchronus
+(AJAX Web-Application Model)
+
+An asynchronus request doesn't block the client i.e. browser is responsive
+
+At that time,user can perform another operations also.
+
+In such case,JavaScript engine of the browser is not blocked.

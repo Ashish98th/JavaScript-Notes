@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script src=""></script>
+
+</head>
+<body>
+   <ul>
+    <li>list 2</li>
+    <li id="first">list 1</li>
+    <li id="third">content inside element</li>
+   </ul>
+   <script>
+    let element=document.getElementById("first");
+    //Getting the value
+     console.log(element);
+
+   
+
+    var a =document.getElementById("third").innerHTML;
+    document.write(a);
+
+    //  Setting the value
+    element.innerHTML="<p> Hello </p>";
+   </script>
+</body>
+</html>

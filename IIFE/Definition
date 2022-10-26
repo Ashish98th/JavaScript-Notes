@@ -1,0 +1,3 @@
+Immediately Invoked Function Expression that runs  as soon as it is defined.
+
+This type of function is called immediately invoked as these functions are executed as soon as they are mounted to the stack, it requires no explicit call to invoke the function.

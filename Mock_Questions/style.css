@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 32px;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+}
+
+input {
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blueviolet;
+}
+
+input::placeholder {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}

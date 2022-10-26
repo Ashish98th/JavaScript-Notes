@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inputs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <div class="input-wrapper">
+    <label for="username">Name</label>
+    <input onfocus="handleInput(this)" type="text" id="username" name="username" placeholder="Name" autocomplete="off">
+  </div>
+  <div class="input-wrapper">
+    <label for="email">Email Address</label>
+    <input onfocus="handleInput(this)" type="text" id="email" name="email" placeholder="Email Address"
+           autocomplete="off">
+  </div>
+  <div class="input-wrapper">
+    <label for="number">Phone Number</label>
+    <input onfocus="handleInput(this)" type="number" id="number" name="number" placeholder="Phone Number"
+           autocomplete="off">
+  </div>
+</div>
+</body>
+</html>

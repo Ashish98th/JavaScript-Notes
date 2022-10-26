@@ -1,0 +1,1 @@
+The method querySelector() returns the first element match with the specified selector,or group of selectors.If no matches are found,null is returned.

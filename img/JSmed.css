@@ -1,0 +1,21 @@
+.box{
+    height: 20px;
+    width:20px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aqua;
+    color: crimson;
+}
+
+.box2{
+    height: 20px;
+    width:20px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.box3{
+    height: 20px;
+    width:20px;
+    border: 2px solid black;
+    display: inline-block;
+}

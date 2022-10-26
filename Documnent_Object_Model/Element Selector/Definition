@@ -1,0 +1,4 @@
+The method querySelectorAll() returns a static(not live) NodeList representing a list of the document's elements that match the specified group of selectors.
+
+The NodeList object represenst a collection of nodes.The nodes can be accesssed numbers.the index asatrts at 0.
+
