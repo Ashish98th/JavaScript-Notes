@@ -1,0 +1,1 @@
+for in loop actually was made for printing the object
